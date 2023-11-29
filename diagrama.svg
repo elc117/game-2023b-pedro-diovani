@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1424px" preserveAspectRatio="none" style="width:1498px;height:1424px;background:#FFFFFF;" version="1.1" viewBox="0 0 1498 1424" width="1498px" zoomAndPan="magnify">
+    <defs/>
+    <g>
+        <!--class Jogador-->
+        <g id="elem_Jogador">
+            <rect codeLine="1" fill="#F1F1F1" height="206.4844" id="Jogador" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="213" x="199" y="769"/>
+            <ellipse cx="275.75" cy="785" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M278.5156,780.875 Q278.6719,780.6563 278.8594,780.5469 Q279.0469,780.4375 279.2656,780.4375 Q279.6406,780.4375 279.875,780.7031 Q280.1094,780.9531 280.1094,781.5625 L280.1094,783.0156 Q280.1094,783.625 279.875,783.8906 Q279.6406,784.1563 279.2656,784.1563 Q278.9219,784.1563 278.7188,783.9531 Q278.5156,783.7656 278.4063,783.25 Q278.3594,782.8906 278.1719,782.7031 Q277.8438,782.3281 277.2344,782.1094 Q276.625,781.8906 276,781.8906 Q275.2344,781.8906 274.5938,782.2188 Q273.9688,782.5469 273.4688,783.2969 Q272.9844,784.0469 272.9844,785.0781 L272.9844,786.1719 Q272.9844,787.4063 273.875,788.2344 Q274.7656,789.0469 276.3594,789.0469 Q277.2969,789.0469 277.9531,788.7969 Q278.3438,788.6406 278.7656,788.2031 Q279.0313,787.9375 279.1719,787.8594 Q279.3281,787.7813 279.5313,787.7813 Q279.8594,787.7813 280.1094,788.0469 Q280.375,788.2969 280.375,788.6406 Q280.375,788.9844 280.0313,789.3906 Q279.5313,789.9688 278.7344,790.2969 Q277.6563,790.75 276.3594,790.75 Q274.8438,790.75 273.6406,790.125 Q272.6563,789.625 271.9688,788.5625 Q271.2813,787.4844 271.2813,786.2031 L271.2813,785.0469 Q271.2813,783.7188 271.8906,782.5781 Q272.5156,781.4219 273.6094,780.8125 Q274.7031,780.1875 275.9375,780.1875 Q276.6719,780.1875 277.3125,780.3594 Q277.9688,780.5156 278.5156,780.875 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="296.25" y="790.7285">Jogador</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="200" x2="411" y1="801" y2="801"/>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="207" y="812.3047"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="219" y="819.5332">vidas: int</text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="207" y="829.9141"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="219" y="837.1426">acertos: int</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="200" x2="411" y1="844.2188" y2="844.2188"/>
+            <ellipse cx="210" cy="858.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187" x="219" y="862.752">Jogador(int vidas, int acertos)</text>
+            <ellipse cx="210" cy="876.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="219" y="880.3613">getVidas(): int</text>
+            <ellipse cx="210" cy="893.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="219" y="897.9707">setVidas(int vidas): void</text>
+            <ellipse cx="210" cy="911.3516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="219" y="915.5801">getAcertos(): int</text>
+            <ellipse cx="210" cy="928.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="177" x="219" y="933.1895">setAcertos(int acertos): void</text>
+            <ellipse cx="210" cy="946.5703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="219" y="950.7988">perdeVida(): void</text>
+            <ellipse cx="210" cy="964.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="219" y="968.4082">acertaPergunta(): void</text>
+        </g>
+        <!--class Pergunta-->
+        <g id="elem_Pergunta">
+            <rect codeLine="14" fill="#F1F1F1" height="364.9688" id="Pergunta" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="679" x="55" y="1053"/>
+            <ellipse cx="361.25" cy="1069" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M364.0156,1064.875 Q364.1719,1064.6563 364.3594,1064.5469 Q364.5469,1064.4375 364.7656,1064.4375 Q365.1406,1064.4375 365.375,1064.7031 Q365.6094,1064.9531 365.6094,1065.5625 L365.6094,1067.0156 Q365.6094,1067.625 365.375,1067.8906 Q365.1406,1068.1563 364.7656,1068.1563 Q364.4219,1068.1563 364.2188,1067.9531 Q364.0156,1067.7656 363.9063,1067.25 Q363.8594,1066.8906 363.6719,1066.7031 Q363.3438,1066.3281 362.7344,1066.1094 Q362.125,1065.8906 361.5,1065.8906 Q360.7344,1065.8906 360.0938,1066.2188 Q359.4688,1066.5469 358.9688,1067.2969 Q358.4844,1068.0469 358.4844,1069.0781 L358.4844,1070.1719 Q358.4844,1071.4063 359.375,1072.2344 Q360.2656,1073.0469 361.8594,1073.0469 Q362.7969,1073.0469 363.4531,1072.7969 Q363.8438,1072.6406 364.2656,1072.2031 Q364.5313,1071.9375 364.6719,1071.8594 Q364.8281,1071.7813 365.0313,1071.7813 Q365.3594,1071.7813 365.6094,1072.0469 Q365.875,1072.2969 365.875,1072.6406 Q365.875,1072.9844 365.5313,1073.3906 Q365.0313,1073.9688 364.2344,1074.2969 Q363.1563,1074.75 361.8594,1074.75 Q360.3438,1074.75 359.1406,1074.125 Q358.1563,1073.625 357.4688,1072.5625 Q356.7813,1071.4844 356.7813,1070.2031 L356.7813,1069.0469 Q356.7813,1067.7188 357.3906,1066.5781 Q358.0156,1065.4219 359.1094,1064.8125 Q360.2031,1064.1875 361.4375,1064.1875 Q362.1719,1064.1875 362.8125,1064.3594 Q363.4688,1064.5156 364.0156,1064.875 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="381.75" y="1074.7285">Pergunta</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="56" x2="733" y1="1085" y2="1085"/>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="63" y="1096.3047"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="75" y="1103.5332">enunciado: String</text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="63" y="1113.9141"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="75" y="1121.1426">dificuldade: int</text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="63" y="1131.5234"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="163" x="75" y="1138.752">opcoes: ArrayList&lt;String&gt;</text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="63" y="1149.1328"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="75" y="1156.3613">resposta: int</text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="63" y="1166.7422"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="75" y="1173.9707">respondida: boolean</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="56" x2="733" y1="1181.0469" y2="1181.0469"/>
+            <ellipse cx="66" cy="1195.3516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="653" x="75" y="1199.5801">Pergunta(String enunciado, int dificuldade, ArrayList&lt;String&gt; opcoes, int resposta, boolean respondida)</text>
+            <ellipse cx="66" cy="1212.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="75" y="1217.1895">getEnunciado(): String</text>
+            <ellipse cx="66" cy="1230.5703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="237" x="75" y="1234.7988">setEnunciado(String enunciado): void</text>
+            <ellipse cx="66" cy="1248.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="75" y="1252.4082">getDificuldade(): int</text>
+            <ellipse cx="66" cy="1265.7891" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="220" x="75" y="1270.0176">setDificuldade(int dificuldade): void</text>
+            <ellipse cx="66" cy="1283.3984" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="196" x="75" y="1287.627">getOpcoes(): ArrayList&lt;String&gt;</text>
+            <ellipse cx="66" cy="1301.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="271" x="75" y="1305.2363">setOpcoes(ArrayList&lt;String&gt; opcoes): void</text>
+            <ellipse cx="66" cy="1318.6172" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="75" y="1322.8457">getResposta(): int</text>
+            <ellipse cx="66" cy="1336.2266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="75" y="1340.4551">setResposta(int resposta): void</text>
+            <ellipse cx="66" cy="1353.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="75" y="1358.0645">isRespondida(): boolean</text>
+            <ellipse cx="66" cy="1371.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="265" x="75" y="1375.6738">setRespondida(boolean respondida): void</text>
+            <ellipse cx="66" cy="1389.0547" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="75" y="1393.2832">escreveEnunciado(): void</text>
+            <ellipse cx="66" cy="1406.6641" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="277" x="75" y="1410.8926">verificaResposta(int respostaUser): boolean</text>
+        </g>
+        <!--class Quiz-->
+        <g id="elem_Quiz">
+            <rect codeLine="36" fill="#F1F1F1" height="171.2656" id="Quiz" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="348" x="219.5" y="520"/>
+            <ellipse cx="375.25" cy="536" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M378.0156,531.875 Q378.1719,531.6563 378.3594,531.5469 Q378.5469,531.4375 378.7656,531.4375 Q379.1406,531.4375 379.375,531.7031 Q379.6094,531.9531 379.6094,532.5625 L379.6094,534.0156 Q379.6094,534.625 379.375,534.8906 Q379.1406,535.1563 378.7656,535.1563 Q378.4219,535.1563 378.2188,534.9531 Q378.0156,534.7656 377.9063,534.25 Q377.8594,533.8906 377.6719,533.7031 Q377.3438,533.3281 376.7344,533.1094 Q376.125,532.8906 375.5,532.8906 Q374.7344,532.8906 374.0938,533.2188 Q373.4688,533.5469 372.9688,534.2969 Q372.4844,535.0469 372.4844,536.0781 L372.4844,537.1719 Q372.4844,538.4063 373.375,539.2344 Q374.2656,540.0469 375.8594,540.0469 Q376.7969,540.0469 377.4531,539.7969 Q377.8438,539.6406 378.2656,539.2031 Q378.5313,538.9375 378.6719,538.8594 Q378.8281,538.7813 379.0313,538.7813 Q379.3594,538.7813 379.6094,539.0469 Q379.875,539.2969 379.875,539.6406 Q379.875,539.9844 379.5313,540.3906 Q379.0313,540.9688 378.2344,541.2969 Q377.1563,541.75 375.8594,541.75 Q374.3438,541.75 373.1406,541.125 Q372.1563,540.625 371.4688,539.5625 Q370.7813,538.4844 370.7813,537.2031 L370.7813,536.0469 Q370.7813,534.7188 371.3906,533.5781 Q372.0156,532.4219 373.1094,531.8125 Q374.2031,531.1875 375.4375,531.1875 Q376.1719,531.1875 376.8125,531.3594 Q377.4688,531.5156 378.0156,531.875 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="395.75" y="541.7285">Quiz</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="220.5" x2="566.5" y1="552" y2="552"/>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="227.5" y="563.3047"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="196" x="239.5" y="570.5332">questoes: ArrayList&lt;Pergunta&gt;</text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="227.5" y="580.9141"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="239.5" y="588.1426">jogador: Jogador</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="220.5" x2="566.5" y1="595.2188" y2="595.2188"/>
+            <ellipse cx="230.5" cy="609.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="239.5" y="613.752">Quiz()</text>
+            <ellipse cx="230.5" cy="627.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="239.5" y="631.3613">getJogador(): Jogador</text>
+            <ellipse cx="230.5" cy="644.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="217" x="239.5" y="648.9707">setJogador(Jogador jogador): void</text>
+            <ellipse cx="230.5" cy="662.3516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="238" x="239.5" y="666.5801">addQuestion(Pergunta questao): void</text>
+            <ellipse cx="230.5" cy="679.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="322" x="239.5" y="684.1895">getRandomQuestion(int dificuldadeUser): Pergunta</text>
+        </g>
+        <!--class CriaQuiz-->
+        <g id="elem_CriaQuiz">
+            <rect codeLine="47" fill="#F1F1F1" height="100.8281" id="CriaQuiz" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="773" x="7" y="174"/>
+            <ellipse cx="362.25" cy="190" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M365.0156,185.875 Q365.1719,185.6563 365.3594,185.5469 Q365.5469,185.4375 365.7656,185.4375 Q366.1406,185.4375 366.375,185.7031 Q366.6094,185.9531 366.6094,186.5625 L366.6094,188.0156 Q366.6094,188.625 366.375,188.8906 Q366.1406,189.1563 365.7656,189.1563 Q365.4219,189.1563 365.2188,188.9531 Q365.0156,188.7656 364.9063,188.25 Q364.8594,187.8906 364.6719,187.7031 Q364.3438,187.3281 363.7344,187.1094 Q363.125,186.8906 362.5,186.8906 Q361.7344,186.8906 361.0938,187.2188 Q360.4688,187.5469 359.9688,188.2969 Q359.4844,189.0469 359.4844,190.0781 L359.4844,191.1719 Q359.4844,192.4063 360.375,193.2344 Q361.2656,194.0469 362.8594,194.0469 Q363.7969,194.0469 364.4531,193.7969 Q364.8438,193.6406 365.2656,193.2031 Q365.5313,192.9375 365.6719,192.8594 Q365.8281,192.7813 366.0313,192.7813 Q366.3594,192.7813 366.6094,193.0469 Q366.875,193.2969 366.875,193.6406 Q366.875,193.9844 366.5313,194.3906 Q366.0313,194.9688 365.2344,195.2969 Q364.1563,195.75 362.8594,195.75 Q361.3438,195.75 360.1406,195.125 Q359.1563,194.625 358.4688,193.5625 Q357.7813,192.4844 357.7813,191.2031 L357.7813,190.0469 Q357.7813,188.7188 358.3906,187.5781 Q359.0156,186.4219 360.1094,185.8125 Q361.2031,185.1875 362.4375,185.1875 Q363.1719,185.1875 363.8125,185.3594 Q364.4688,185.5156 365.0156,185.875 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="382.75" y="195.7285">CriaQuiz</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="779" y1="206" y2="206"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="779" y1="214" y2="214"/>
+            <ellipse cx="18" cy="228.3047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="27" y="232.5332">criarQuiz(): Quiz</text>
+            <rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="242.9141"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="747" x="27" y="250.1426">criarPergunta(String enunciado, int dificuldade, ArrayList&lt;String&gt; opcoes, int resposta, boolean respondida): Pergunta</text>
+            <rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="260.5234"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="580" x="27" y="267.752">criarOpcoes(String opcao1, String opcao2, String opcao3, String opcao4): ArrayList&lt;String&gt;</text>
+        </g>
+        <!--class Jurassic-->
+        <g id="elem_Jurassic">
+            <rect codeLine="53" fill="#F1F1F1" height="136.0469" id="Jurassic" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="142" x="815.5" y="156.5"/>
+            <ellipse cx="857.05" cy="172.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M859.8156,168.375 Q859.9719,168.1563 860.1594,168.0469 Q860.3469,167.9375 860.5656,167.9375 Q860.9406,167.9375 861.175,168.2031 Q861.4094,168.4531 861.4094,169.0625 L861.4094,170.5156 Q861.4094,171.125 861.175,171.3906 Q860.9406,171.6563 860.5656,171.6563 Q860.2219,171.6563 860.0188,171.4531 Q859.8156,171.2656 859.7063,170.75 Q859.6594,170.3906 859.4719,170.2031 Q859.1438,169.8281 858.5344,169.6094 Q857.925,169.3906 857.3,169.3906 Q856.5344,169.3906 855.8938,169.7188 Q855.2688,170.0469 854.7688,170.7969 Q854.2844,171.5469 854.2844,172.5781 L854.2844,173.6719 Q854.2844,174.9063 855.175,175.7344 Q856.0656,176.5469 857.6594,176.5469 Q858.5969,176.5469 859.2531,176.2969 Q859.6438,176.1406 860.0656,175.7031 Q860.3313,175.4375 860.4719,175.3594 Q860.6281,175.2813 860.8313,175.2813 Q861.1594,175.2813 861.4094,175.5469 Q861.675,175.7969 861.675,176.1406 Q861.675,176.4844 861.3313,176.8906 Q860.8313,177.4688 860.0344,177.7969 Q858.9563,178.25 857.6594,178.25 Q856.1438,178.25 854.9406,177.625 Q853.9563,177.125 853.2688,176.0625 Q852.5813,174.9844 852.5813,173.7031 L852.5813,172.5469 Q852.5813,171.2188 853.1906,170.0781 Q853.8156,168.9219 854.9094,168.3125 Q856.0031,167.6875 857.2375,167.6875 Q857.9719,167.6875 858.6125,167.8594 Q859.2688,168.0156 859.8156,168.375 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="876.95" y="178.2285">Jurassic</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="816.5" x2="956.5" y1="188.5" y2="188.5"/>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="823.5" y="199.8047"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="835.5" y="207.0332">batch: SpriteBatch</text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="823.5" y="217.4141"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="835.5" y="224.6426">font: BitmapFont</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="816.5" x2="956.5" y1="231.7188" y2="231.7188"/>
+            <ellipse cx="826.5" cy="246.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="835.5" y="250.252">create(): void</text>
+            <ellipse cx="826.5" cy="263.6328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="835.5" y="267.8613">render(): void</text>
+            <ellipse cx="826.5" cy="281.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="835.5" y="285.4707">dispose(): void</text>
+        </g>
+        <!--class TelaStart-->
+        <g id="elem_TelaStart">
+            <rect codeLine="62" fill="#F1F1F1" height="294.5313" id="TelaStart" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="232" x="992.5" y="77"/>
+            <ellipse cx="1075.25" cy="93" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M1078.0156,88.875 Q1078.1719,88.6563 1078.3594,88.5469 Q1078.5469,88.4375 1078.7656,88.4375 Q1079.1406,88.4375 1079.375,88.7031 Q1079.6094,88.9531 1079.6094,89.5625 L1079.6094,91.0156 Q1079.6094,91.625 1079.375,91.8906 Q1079.1406,92.1563 1078.7656,92.1563 Q1078.4219,92.1563 1078.2188,91.9531 Q1078.0156,91.7656 1077.9063,91.25 Q1077.8594,90.8906 1077.6719,90.7031 Q1077.3438,90.3281 1076.7344,90.1094 Q1076.125,89.8906 1075.5,89.8906 Q1074.7344,89.8906 1074.0938,90.2188 Q1073.4688,90.5469 1072.9688,91.2969 Q1072.4844,92.0469 1072.4844,93.0781 L1072.4844,94.1719 Q1072.4844,95.4063 1073.375,96.2344 Q1074.2656,97.0469 1075.8594,97.0469 Q1076.7969,97.0469 1077.4531,96.7969 Q1077.8438,96.6406 1078.2656,96.2031 Q1078.5313,95.9375 1078.6719,95.8594 Q1078.8281,95.7813 1079.0313,95.7813 Q1079.3594,95.7813 1079.6094,96.0469 Q1079.875,96.2969 1079.875,96.6406 Q1079.875,96.9844 1079.5313,97.3906 Q1079.0313,97.9688 1078.2344,98.2969 Q1077.1563,98.75 1075.8594,98.75 Q1074.3438,98.75 1073.1406,98.125 Q1072.1563,97.625 1071.4688,96.5625 Q1070.7813,95.4844 1070.7813,94.2031 L1070.7813,93.0469 Q1070.7813,91.7188 1071.3906,90.5781 Q1072.0156,89.4219 1073.1094,88.8125 Q1074.2031,88.1875 1075.4375,88.1875 Q1076.1719,88.1875 1076.8125,88.3594 Q1077.4688,88.5156 1078.0156,88.875 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="1095.75" y="98.7285">TelaStart</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="993.5" x2="1223.5" y1="109" y2="109"/>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1000.5" y="120.3047"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="1012.5" y="127.5332">game: Jurassic</text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1000.5" y="137.9141"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="188" x="1012.5" y="145.1426">camera: OrthographicCamera</text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1000.5" y="155.5234"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="1012.5" y="162.752">fundo: Texture</text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1000.5" y="173.1328"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="1012.5" y="180.3613">fundoX: float</text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1000.5" y="190.7422"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="1012.5" y="197.9707">titulo: Texture</text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1000.5" y="208.3516"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="1012.5" y="215.5801">start: Texture</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="993.5" x2="1223.5" y1="222.6563" y2="222.6563"/>
+            <ellipse cx="1003.5" cy="236.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="1012.5" y="241.1895">TelaStart(game: Jurassic)</text>
+            <ellipse cx="1003.5" cy="254.5703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="152" x="1012.5" y="258.7988">render(delta: float): void</text>
+            <ellipse cx="1003.5" cy="272.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="206" x="1012.5" y="276.4082">resize(width: int, height: int): void</text>
+            <ellipse cx="1003.5" cy="289.7891" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="1012.5" y="294.0176">show(): void</text>
+            <ellipse cx="1003.5" cy="307.3984" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="1012.5" y="311.627">hide(): void</text>
+            <ellipse cx="1003.5" cy="325.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="1012.5" y="329.2363">pause(): void</text>
+            <ellipse cx="1003.5" cy="342.6172" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="1012.5" y="346.8457">resume(): void</text>
+            <ellipse cx="1003.5" cy="360.2266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="1012.5" y="364.4551">dispose(): void</text>
+        </g>
+        <!--class TelaJogo-->
+        <g id="elem_TelaJogo">
+            <rect codeLine="80" fill="#F1F1F1" height="435.4063" id="TelaJogo" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="232" x="1259.5" y="7"/>
+            <ellipse cx="1342.25" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M1345.0156,18.875 Q1345.1719,18.6563 1345.3594,18.5469 Q1345.5469,18.4375 1345.7656,18.4375 Q1346.1406,18.4375 1346.375,18.7031 Q1346.6094,18.9531 1346.6094,19.5625 L1346.6094,21.0156 Q1346.6094,21.625 1346.375,21.8906 Q1346.1406,22.1563 1345.7656,22.1563 Q1345.4219,22.1563 1345.2188,21.9531 Q1345.0156,21.7656 1344.9063,21.25 Q1344.8594,20.8906 1344.6719,20.7031 Q1344.3438,20.3281 1343.7344,20.1094 Q1343.125,19.8906 1342.5,19.8906 Q1341.7344,19.8906 1341.0938,20.2188 Q1340.4688,20.5469 1339.9688,21.2969 Q1339.4844,22.0469 1339.4844,23.0781 L1339.4844,24.1719 Q1339.4844,25.4063 1340.375,26.2344 Q1341.2656,27.0469 1342.8594,27.0469 Q1343.7969,27.0469 1344.4531,26.7969 Q1344.8438,26.6406 1345.2656,26.2031 Q1345.5313,25.9375 1345.6719,25.8594 Q1345.8281,25.7813 1346.0313,25.7813 Q1346.3594,25.7813 1346.6094,26.0469 Q1346.875,26.2969 1346.875,26.6406 Q1346.875,26.9844 1346.5313,27.3906 Q1346.0313,27.9688 1345.2344,28.2969 Q1344.1563,28.75 1342.8594,28.75 Q1341.3438,28.75 1340.1406,28.125 Q1339.1563,27.625 1338.4688,26.5625 Q1337.7813,25.4844 1337.7813,24.2031 L1337.7813,23.0469 Q1337.7813,21.7188 1338.3906,20.5781 Q1339.0156,19.4219 1340.1094,18.8125 Q1341.2031,18.1875 1342.4375,18.1875 Q1343.1719,18.1875 1343.8125,18.3594 Q1344.4688,18.5156 1345.0156,18.875 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="1362.75" y="28.7285">TelaJogo</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1260.5" x2="1490.5" y1="39" y2="39"/>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1267.5" y="50.3047"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="1279.5" y="57.5332">game: Jurassic</text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1267.5" y="67.9141"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="188" x="1279.5" y="75.1426">camera: OrthographicCamera</text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1267.5" y="85.5234"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="1279.5" y="92.752">tela: Texture</text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1267.5" y="103.1328"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="1279.5" y="110.3613">player: Texture</text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1267.5" y="120.7422"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="1279.5" y="127.9707">quiz: Quiz</text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1267.5" y="138.3516"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="1279.5" y="145.5801">dificuldade: int</text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1267.5" y="155.9609"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="1279.5" y="163.1895">resposta: int</text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1267.5" y="173.5703"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="1279.5" y="180.7988">fase: int</text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1267.5" y="191.1797"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="1279.5" y="198.4082">botaoPressionado: boolean</text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1267.5" y="208.7891"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="1279.5" y="216.0176">botaoSolto: boolean</text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1267.5" y="226.3984"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="1279.5" y="233.627">respondida: boolean</text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1267.5" y="244.0078"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="176" x="1279.5" y="251.2363">perguntaRandom: Pergunta</text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1267.5" y="261.6172"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="1279.5" y="268.8457">somAcerto: Sound</text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1267.5" y="279.2266"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="1279.5" y="286.4551">somErro: Sound</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1260.5" x2="1490.5" y1="293.5313" y2="293.5313"/>
+            <ellipse cx="1270.5" cy="307.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="1279.5" y="312.0645">TelaJogo(game: Jurassic)</text>
+            <ellipse cx="1270.5" cy="325.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="152" x="1279.5" y="329.6738">render(delta: float): void</text>
+            <ellipse cx="1270.5" cy="343.0547" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="206" x="1279.5" y="347.2832">resize(width: int, height: int): void</text>
+            <ellipse cx="1270.5" cy="360.6641" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="1279.5" y="364.8926">show(): void</text>
+            <ellipse cx="1270.5" cy="378.2734" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="1279.5" y="382.502">hide(): void</text>
+            <ellipse cx="1270.5" cy="395.8828" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="1279.5" y="400.1113">pause(): void</text>
+            <ellipse cx="1270.5" cy="413.4922" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="1279.5" y="417.7207">resume(): void</text>
+            <ellipse cx="1270.5" cy="431.1016" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="1279.5" y="435.3301">dispose(): void</text>
+        </g>
+        <!--class Screen-->
+        <g id="elem_Screen">
+            <rect fill="#F1F1F1" height="48" id="Screen" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="77" x="1204" y="581.5"/>
+            <ellipse cx="1219" cy="597.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M1221.7656,593.375 Q1221.9219,593.1563 1222.1094,593.0469 Q1222.2969,592.9375 1222.5156,592.9375 Q1222.8906,592.9375 1223.125,593.2031 Q1223.3594,593.4531 1223.3594,594.0625 L1223.3594,595.5156 Q1223.3594,596.125 1223.125,596.3906 Q1222.8906,596.6563 1222.5156,596.6563 Q1222.1719,596.6563 1221.9688,596.4531 Q1221.7656,596.2656 1221.6563,595.75 Q1221.6094,595.3906 1221.4219,595.2031 Q1221.0938,594.8281 1220.4844,594.6094 Q1219.875,594.3906 1219.25,594.3906 Q1218.4844,594.3906 1217.8438,594.7188 Q1217.2188,595.0469 1216.7188,595.7969 Q1216.2344,596.5469 1216.2344,597.5781 L1216.2344,598.6719 Q1216.2344,599.9063 1217.125,600.7344 Q1218.0156,601.5469 1219.6094,601.5469 Q1220.5469,601.5469 1221.2031,601.2969 Q1221.5938,601.1406 1222.0156,600.7031 Q1222.2813,600.4375 1222.4219,600.3594 Q1222.5781,600.2813 1222.7813,600.2813 Q1223.1094,600.2813 1223.3594,600.5469 Q1223.625,600.7969 1223.625,601.1406 Q1223.625,601.4844 1223.2813,601.8906 Q1222.7813,602.4688 1221.9844,602.7969 Q1220.9063,603.25 1219.6094,603.25 Q1218.0938,603.25 1216.8906,602.625 Q1215.9063,602.125 1215.2188,601.0625 Q1214.5313,599.9844 1214.5313,598.7031 L1214.5313,597.5469 Q1214.5313,596.2188 1215.1406,595.0781 Q1215.7656,593.9219 1216.8594,593.3125 Q1217.9531,592.6875 1219.1875,592.6875 Q1219.9219,592.6875 1220.5625,592.8594 Q1221.2188,593.0156 1221.7656,593.375 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="1233" y="603.2285">Screen</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1205" x2="1280" y1="613.5" y2="613.5"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1205" x2="1280" y1="621.5" y2="621.5"/>
+        </g>
+        <!--class Game-->
+        <g id="elem_Game">
+            <rect fill="#F1F1F1" height="48" id="Game" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="70" x="851.5" y="581.5"/>
+            <ellipse cx="866.5" cy="597.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M869.2656,593.375 Q869.4219,593.1563 869.6094,593.0469 Q869.7969,592.9375 870.0156,592.9375 Q870.3906,592.9375 870.625,593.2031 Q870.8594,593.4531 870.8594,594.0625 L870.8594,595.5156 Q870.8594,596.125 870.625,596.3906 Q870.3906,596.6563 870.0156,596.6563 Q869.6719,596.6563 869.4688,596.4531 Q869.2656,596.2656 869.1563,595.75 Q869.1094,595.3906 868.9219,595.2031 Q868.5938,594.8281 867.9844,594.6094 Q867.375,594.3906 866.75,594.3906 Q865.9844,594.3906 865.3438,594.7188 Q864.7188,595.0469 864.2188,595.7969 Q863.7344,596.5469 863.7344,597.5781 L863.7344,598.6719 Q863.7344,599.9063 864.625,600.7344 Q865.5156,601.5469 867.1094,601.5469 Q868.0469,601.5469 868.7031,601.2969 Q869.0938,601.1406 869.5156,600.7031 Q869.7813,600.4375 869.9219,600.3594 Q870.0781,600.2813 870.2813,600.2813 Q870.6094,600.2813 870.8594,600.5469 Q871.125,600.7969 871.125,601.1406 Q871.125,601.4844 870.7813,601.8906 Q870.2813,602.4688 869.4844,602.7969 Q868.4063,603.25 867.1094,603.25 Q865.5938,603.25 864.3906,602.625 Q863.4063,602.125 862.7188,601.0625 Q862.0313,599.9844 862.0313,598.7031 L862.0313,597.5469 Q862.0313,596.2188 862.6406,595.0781 Q863.2656,593.9219 864.3594,593.3125 Q865.4531,592.6875 866.6875,592.6875 Q867.4219,592.6875 868.0625,592.8594 Q868.7188,593.0156 869.2656,593.375 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="880.5" y="603.2285">Game</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="852.5" x2="920.5" y1="613.5" y2="613.5"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="852.5" x2="920.5" y1="621.5" y2="621.5"/>
+        </g>
+        <!--reverse link Jogador to Pergunta-->
+        <g id="link_Jogador_Pergunta">
+            <path codeLine="106" d="M333.78,987.88 C338.89,1008.64 344.33,1030.74 349.78,1052.86 " fill="none" id="Jogador-backto-Pergunta" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818" points="330.65,975.14,328.1975,981.9212,333.5138,986.7933,335.9663,980.012,330.65,975.14" style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="49" x="343.5" y="1019.4951">participa</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="325.3076" y="997.1392">1</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="327.4715" y="1042.3206">1..*</text>
+        </g>
+        <!--reverse link Quiz to Jogador-->
+        <g id="link_Quiz_Jogador">
+            <path codeLine="107" d="M361.1,703.89 C354.08,724.99 346.63,747.37 339.55,768.66 " fill="none" id="Quiz-backto-Jogador" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818" points="365.29,691.28,359.6025,695.7131,361.5071,702.6681,367.1946,698.235,365.29,691.28" style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="38" x="356.5" y="735.4951">possui</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="355.5649" y="712.838">1</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="334.7935" y="757.9737">1</text>
+        </g>
+        <!--reverse link Quiz to Pergunta-->
+        <g id="link_Quiz_Pergunta">
+            <path codeLine="108" d="M418.68,703.84 C423.18,725.17 427.17,747.73 429.5,769 C439.73,862.45 433.5,966.79 423.63,1052.96 " fill="none" id="Quiz-backto-Pergunta" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818" points="415.9,691.1,413.2712,697.8149,418.4585,702.8241,421.0873,696.1092,415.9,691.1" style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="436.5" y="877.4951">contÃ©m</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="410.5242" y="712.6426">1</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="404.437" y="1042.4248">0..*</text>
+        </g>
+        <!--reverse link CriaQuiz to Quiz-->
+        <g id="link_CriaQuiz_Quiz">
+            <path codeLine="109" d="M393.5,288.39 C393.5,351.68 393.5,449.7 393.5,519.8 " fill="none" id="CriaQuiz-backto-Quiz" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818" points="393.5,275.05,389.5,281.05,393.5,287.05,397.5,281.05,393.5,275.05" style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="394.5" y="486.4951">cria</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="386.0297" y="296.4479">1</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="386.1992" y="509.2465">1</text>
+        </g>
+        <!--link TelaStart to Screen-->
+        <g id="link_TelaStart_Screen">
+            <path codeLine="110" d="M1160.31,372.03 C1184.39,440.16 1211.25,516.11 1227.5,562.08 " fill="none" id="TelaStart-to-Screen" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="none" points="1234.21,560.06,1234.28,581.24,1221.01,564.72,1234.21,560.06" style="stroke:#181818;stroke-width:1.0;"/>
+        </g>
+        <!--link TelaJogo to Screen-->
+        <g id="link_TelaJogo_Screen">
+            <path codeLine="111" d="M1299.48,442.12 C1283.39,487.97 1268.06,531.67 1257.36,562.15 " fill="none" id="TelaJogo-to-Screen" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="none" points="1263.82,564.88,1250.59,581.44,1250.61,560.25,1263.82,564.88" style="stroke:#181818;stroke-width:1.0;"/>
+        </g>
+        <!--link Jurassic to Game-->
+        <g id="link_Jurassic_Game">
+            <path codeLine="112" d="M886.5,292.82 C886.5,370.43 886.5,495.71 886.5,561.31 " fill="none" id="Jurassic-to-Game" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="none" points="893.5,561.47,886.5,581.47,879.5,561.47,893.5,561.47" style="stroke:#181818;stroke-width:1.0;"/>
+        </g>
+        <!--SRC=[rLNDRjGm4BxdAQmzPTlTYWAd25LgeI1LIFtPWhYwyMnYb8rJszdI0YUUXjU05sDinuwTBXBYWCGfcc_-FyzCoeOgHSv4HPcGv7D6o7BB6LK5uQqs4Yr1QZ782EmFjZdAn9ekZ8eCTdDZKe5-RpJvt8VPLnuARgZR2iu6-sFdddfuC8u_UdKW6PYWUGHQCte1ikfRFMg-PbbfE_KQrogqVLjoRASWAorvMncGyJKl-uPH1e45qPK2a8HZAUdzMwxq2sT_P9GIL2UKfi7Q0Yt3qWfo8qG3jBNKXRASCmdf7OLHuiNZJCJLu4nzoeMFJyQS_WbEVNJ3GcZFy3fgfeMaZ_9gB2Xzc5WngJoDS6vhDiwxc3EX1elVjPk6knhQJgi9QCnCvCZLLI37UFedYRoTRWUNOnHGfOGj9AnwtHQaOO3khEIT0Xbb3QDusVC7DuQtFIWzcIy_AtR2FhgTA_oYscao_hb_RB-Lyz76jUSLViM7KF7AC7Pf2k2YpSDws9BeP1wkQCl49XXFNdxequSO6tqfEGtDxfSeILTxOJam3Lhm7wr7LABFF0pXa1SZKN6u8B7uD1MVfUBpdGCU23Zh9NvuwLxxXkgoneti9DTmOWI3haMh2tB2zOPshyLmQt7Yg8PuqYIq36ICC6vwXSUdxXeQkj9KQfUseXkyPxuKspeY4a_KkTIrg2JjQbw-j9Wjg6_DNRo6JxgN490F1LatWjexfxdkczH6cOGZOWeCTUHf2VEe7mQDkPysSjAjuW-Gtt6cQxln2r83hsfjXSXGrU8k9gNcBA6jexsQyAZw3VmnZxWzukzerEYTCDGrz1va0jtY5eoxiEl_y-WNiwPgrDu8NDKBj56ublPlDfuufro9HgVmhd-KgMvO3RVgwQeeiN5_P1nUWRCmOATI1iI_j-7hltjkVo9dXpEojrpYz-1WRnOeA4Y7GynBtj7CdhFHRkQFBje8fNe-CNWo2LJYWl_yzkFx9WktCGvsQUV1NAPiNEBbyiiHMU55W3OB8nc3uSfOy0sI_mi0]-->
+    </g>
+</svg>

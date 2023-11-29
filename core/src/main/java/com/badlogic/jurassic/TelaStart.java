@@ -14,17 +14,16 @@ public class TelaStart implements Screen {
     Texture titulo;
     Texture start;
     
-    
     public TelaStart(final Jurassic g){
         game = g;
         camera = new OrthographicCamera();
         camera.setToOrtho(false, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
         
-        fundo = new Texture("fundoStart.jpg");
+        fundo = new Texture(Gdx.files.internal("fundostart.jpg"));
         fundoX = 0;
         
-        titulo = new Texture("titulo.png");
-        start = new Texture("start.png");
+        titulo = new Texture(Gdx.files.internal("titulo.png"));
+        start = new Texture(Gdx.files.internal("start.png"));
         
     }
     
